@@ -1,0 +1,6 @@
+framework module INCR_UIExtensions {
+  umbrella header "INCR_UIExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

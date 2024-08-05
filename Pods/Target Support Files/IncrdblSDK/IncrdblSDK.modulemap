@@ -1,0 +1,6 @@
+framework module IncrdblSDK {
+  umbrella header "IncrdblSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
