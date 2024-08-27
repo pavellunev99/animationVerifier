@@ -11,7 +11,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var _window: UIWindow?
-    let browserViewController = DocumentBrowserViewController()
+    let listViewController = ListViewController()
 
     private var window: UIWindow {
         if _window == nil {
@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        window.rootViewController =  UINavigationController(rootViewController: browserViewController)
+        window.rootViewController =  UINavigationController(rootViewController: listViewController)
         window.makeKeyAndVisible()
         return true
     }
