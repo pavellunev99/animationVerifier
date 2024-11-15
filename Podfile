@@ -15,6 +15,6 @@ target 'AnimationVerifier' do
     
     shared_pods
     
-    pod 'lottie-ios', '3.1.9'
+    pod 'lottie-ios', '4.4.3'
     pod 'INCR_UIExtensions', '0.1.3'
 end

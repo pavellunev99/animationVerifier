@@ -21,7 +21,7 @@ class AnimationViewController: ViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    let animationView = AnimationView()
+    let animationView = LottieAnimationView()
     let closeButton = UIButton()
 
     override func setup() {
@@ -31,7 +31,7 @@ class AnimationViewController: ViewController {
 
         view.addSubview(animationView)
         animationView.loopMode = .loop
-        animationView.animation = Animation.filepath(url.path)
+        animationView.animation = LottieAnimation.filepath(url.path)
 
         view.addSubview(closeButton)
         closeButton.setTitle("Close", for: .normal)

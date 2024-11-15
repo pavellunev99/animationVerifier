@@ -19,13 +19,13 @@ PODS:
   - IncrdblSDK/ValueLabel (0.2.0):
     - IncrdblSDK/HtmlLabel
     - IncrdblSDK/ImageUrlView
-  - lottie-ios (3.1.9)
+  - lottie-ios (4.4.3)
 
 DEPENDENCIES:
   - INCR_Extensions (= 0.1.0)
   - INCR_UIExtensions (= 0.1.3)
   - IncrdblSDK (= 0.2.0)
-  - lottie-ios (= 3.1.9)
+  - lottie-ios (= 4.4.3)
 
 SPEC REPOS:
   "git@github.com:bdgroup/shared.ios.cocoaspec.git":
@@ -39,8 +39,8 @@ SPEC CHECKSUMS:
   INCR_Extensions: b6899fcbc8375d3657c98c5eb6101c787fa81d5f
   INCR_UIExtensions: 13e09018d7dc0e932c1b69697cb9204218cd721e
   IncrdblSDK: ed15ec9af5783e8a6b06dbaa57a34c9d656af409
-  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  lottie-ios: fcb5e73e17ba4c983140b7d21095c834b3087418
 
-PODFILE CHECKSUM: e2dda1927385f0a3c25a11c7f497a537d75c0fe8
+PODFILE CHECKSUM: a4ff39f8d002145975fc7d70f22275afe014af7c
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2
